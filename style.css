@@ -1,0 +1,31 @@
+body{
+    background-color: lightblue;
+}
+
+
+.header{
+    position: static;
+    color:lightgreen;
+    background-color: black;
+    text-align: center;
+    font-size:50px;
+    border:3px solid;
+    margin-left:25%;
+
+    height: 100px;
+    width: 50%;
+}
+
+.logo{
+    position: static;
+    color:lightgreen;
+    background-color: black;
+    text-align: center;
+    font-size:50px;
+    border:3px solid;
+    margin-left:25%;
+}
+
+ 
+
+/* node --watch fileName */
