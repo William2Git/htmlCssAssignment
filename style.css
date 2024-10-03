@@ -4,19 +4,35 @@ body{
 
 
 .header{
-    position: static;
-    color:lightgreen;
-    background-color: black;
-    text-align: center;
+    display:flex;
+    color:white;
+    background-color: darkslategray;
+
     font-size:50px;
-    border:3px solid;
-    margin-left:25%;
 
     height: 100px;
-    width: 50%;
+    width: 100%;
 }
 
 .logo{
+    font-size:25px;
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+
+.login{
+    text-align: center;
+}
+
+/* .header{
+    position: static;
+    
+} */
+
+/* .logo{
     position: static;
     color:lightgreen;
     background-color: black;
@@ -24,7 +40,7 @@ body{
     font-size:50px;
     border:3px solid;
     margin-left:25%;
-}
+} */
 
  
 
