@@ -14,7 +14,7 @@
 }
 
 .logo{
-    color:lightblue;
+    color:rgb(194, 39, 39);
     height:100%;
     text-align: center;
     padding-top:15px;
@@ -28,7 +28,7 @@
     background-color:black;
     /* border:1px solid white; */
 
-    color:lightblue;
+    color:rgb(194, 39, 39);
     font-size:20px;
     /* padding: 20px 20px 50px 20px; */
 
@@ -56,11 +56,27 @@
 .gradient{
     height:100%;
     width:100%;
-    background-image:linear-gradient(to top, black, transparent);
+    background-color:rgb(0,0,0,0.5);
+    background-image:radial-gradient(transparent,black);
+
     position:absolute;
     top:0;
     left:0;
 }
+
+.heroAd{
+    width:100%;
+    position:absolute;
+    color:white;
+    top:30%;
+    text-align:center;
+    font-size:50px;
+    
+}
+.desc{
+    top:35%;
+}
+
 
 
 
