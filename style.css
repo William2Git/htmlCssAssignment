@@ -152,15 +152,29 @@ p3{
     background-image:radial-gradient(transparent,rgb(0,0,0,0.2));
 }
 
-.trending{
-    padding-left:10%;
-    position:absolute;
-    top:16%;
-}
-
 .trendTitle{
     font-size:30px;
     width:100%;
+}
+
+.trending{
+    width:100%;
+    padding-left:10%;
+    padding-right:10%;
+    position:absolute;
+    top:25%;
+}
+
+.display{
+    width:80%;
+    background-color:rgb(23, 23, 23);
+    overflow:auto;
+    white-space:nowrap;
+    padding:10px;
+}
+
+.display img {
+    padding:10px;
 }
 
 
